@@ -14,6 +14,7 @@ DriveSmart is an innovative solution designed to empower drivers with precise tr
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Contributors](#contributors)
 
 ## Introduction
 
@@ -61,7 +62,7 @@ This landing page serves as an entry point to DriveSmart, providing an overview 
     ```bash
     cd DriveSmart
     ```
-3.  Open the `index.html` file in your web browser.  For example:
+3.  Open the `index.html` file in your web browser. For example:
     ```bash
     xdg-open index.html  # Linux
     open index.html     # macOS
@@ -83,8 +84,14 @@ Contributions are welcome! Please open an issue or submit a pull request. [Add s
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. (Make sure you create a LICENSE file in your repository).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-Alok Agarwal - [alokagarwal49978@gmail.com]
+Alok Agarwal - [alokagarwal49978@gmail.com](mailto:alokagarwal49978@gmail.com)
+
+## Contributors
+
+*   Divyanshi ([divyanshi.rao.2107@gmail.com](mailto:divyanshi.rao.2107@gmail.com))
+*   Vansh ([06.v.modi@gmail.com](mailto:06.v.modi@gmail.com))
+*   Dhanak ([paakhi2225@gmail.com](mailto:paakhi2225@gmail.com))
