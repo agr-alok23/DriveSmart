@@ -80,7 +80,7 @@ The `index.html` file is the main entry point for the DriveSmart landing page. U
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request. [Add specific contributing guidelines here.]
+Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
