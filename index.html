@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveSmart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white h-screen flex flex-col justify-between items-center relative">
+    <div class="background-image"></div>
+    
+    <header class="mt-10 lg:mt-16 flex justify-center items-center z-10">
+        <img src="img/logo.jpg" alt="DriveSmart Icon" class="w-10 h-10 md:w-16 md:h-16">
+        <h1 class="text-purple-500 text-4xl md:text-6xl font-bold ml-2">DriveSmart</h1>
+    </header>
+    
+    <main class="flex flex-col items-center text-center z-10 max-w-screen-md w-full px-4 lg:px-0">
+        <h2 class="text-4xl md:text-6xl font-semibold">Let's Get <span class="text-pink-500">Started!</span></h2>
+        
+        <button onclick="window.location.href='web/starter.html';" class="mt-8 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-xl md:text-2xl py-2 px-16 md:px-24 rounded-full shadow-lg hover:shadow-xl cursor-pointer">
+            SIGN IN
+        </button>
+        
+        <p class="mt-4 text-gray-400 md:text-lg">OR SIGN IN WITH</p>
+        <div class="flex mt-4 space-x-6">
+            <a href="#" class="bg-pink-500 p-4 md:p-6 rounded-full text-white shadow-md cursor-pointer" aria-label="Sign in with Email">
+                <img src="img/email.png" alt="Email" class="w-6 h-6 md:w-8 md:h-8">
+            </a>
+            <a href="#" class="bg-pink-500 p-4 md:p-6 rounded-full text-white shadow-md cursor-pointer" aria-label="Sign in with Phone">
+                <img src="img/phone.png" alt="Phone" class="w-6 h-6 md:w-8 md:h-8">
+            </a>
+        </div>
+    </main>
+    
+    <footer class="flex flex-col items-center mb-6 text-center z-10 w-full px-4 relative">
+        <p class="text-sm md:text-lg">Powered By <span class="text-red-500 font-bold">C Company</span></p>
+        <hr class="divider">
+        <p class="tagline italic">~"Make it easy"~</p>
+        <p class="mt-4 text-gray-400 text-xs md:text-sm">DIDN'T HAVE AN ACCOUNT? <a href="#" class="text-pink-500">SIGN UP NOW</a></p>
+    </footer>
+</body>
+</html>
